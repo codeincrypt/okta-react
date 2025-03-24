@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* SplashScreen.css */
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f4f6; /* Light gray background */
+  text-align: center;
+}
+
+/* Loader Animation */
+.loader {
+  border: 5px solid #e0e0e0;
+  border-top: 5px solid #0073e6; /* Okta blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Text Styles */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Logout Page Styles */
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f0f2f5;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.styled-card {
+  text-align: center;
+  padding: 2rem;
+  max-width: 500px;
+}
+
+.logout-title {
+  margin-top: 30px;
+}
+
+.logout-text {
+  margin-top: 10px;
+}
+
+.custom-button {
+  background-color: #9d0710 !important;
+  padding: 10px 30px !important;
+  color: #ffffff !important;
+  border-color: #9d0710 !important;
+  box-shadow: none !important;
+  margin-top: 30px !important;
+}
+
+.custom-button:hover {
+  background-color: #7f050d !important;
+  border-color: #7f050d !important;
+  color: #ffffff !important;
+}
+
+.custom-button:focus,
+.custom-button:active {
+  background-color: #9d0710 !important;
+  border-color: #9d0710 !important;
+  color: #ffffff !important;
+}
+
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.error-title {
+  margin-top: 30px;
+}
+
+.error-description {
+  margin-top: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+}
+
+/* Logo */
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+/* User Section */
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Welcome Text */
+.welcome-text {
+  font-size: 16px;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #9d0710;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #7f050d;
+}
